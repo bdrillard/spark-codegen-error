@@ -26,6 +26,8 @@ public class Main {
     public static void main(String[] args) {
         SparkSession spark = SparkSession.builder().master("local").getOrCreate();
 
+        spark.conf().set("spark.sql.codegen.wholeStage", false);
+
         List<WideNestedBean> data = new ArrayList<>();
         for (int i = 0; i < 50; i++) {
             data.add(WideNestedBean.newBuilder().build());
