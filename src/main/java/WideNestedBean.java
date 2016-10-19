@@ -249,7 +249,6 @@ public class WideNestedBean {
     private Nesting1 field248;
     private Nesting1 field249;
     private Nesting1 field250;
-    /*
     private Nesting1 field251;
     private Nesting1 field252;
     private Nesting1 field253;
@@ -400,7 +399,6 @@ public class WideNestedBean {
     private Nesting1 field398;
     private Nesting1 field399;
     private Nesting1 field400;
-    */
 
     public WideNestedBean() {
     }
@@ -656,7 +654,6 @@ public class WideNestedBean {
         setField248(builder.field248);
         setField249(builder.field249);
         setField250(builder.field250);
-        /*
         setField251(builder.field251);
         setField252(builder.field252);
         setField253(builder.field253);
@@ -807,7 +804,6 @@ public class WideNestedBean {
         setField398(builder.field398);
         setField399(builder.field399);
         setField400(builder.field400);
-        */
     }
 
     public static Builder newBuilder() {
@@ -2814,7 +2810,6 @@ public class WideNestedBean {
         this.field250 = field250;
     }
 
-    /*
     public Nesting1 getField251() {
         return field251;
     }
@@ -3214,7 +3209,7 @@ public class WideNestedBean {
     public void setField300(Nesting1 field300) {
         this.field300 = field300;
     }
-    /*
+
     public Nesting1 getField301() {
         return field301;
     }
@@ -4014,7 +4009,6 @@ public class WideNestedBean {
     public void setField400(Nesting1 field400) {
         this.field400 = field400;
     }
-    */
 
     public static final class Builder {
         private Nesting1 field1 = Nesting1.newBuilder().build();
@@ -4267,7 +4261,6 @@ public class WideNestedBean {
         private Nesting1 field248 = Nesting1.newBuilder().build();
         private Nesting1 field249 = Nesting1.newBuilder().build();
         private Nesting1 field250 = Nesting1.newBuilder().build();
-        /*
         private Nesting1 field251 = Nesting1.newBuilder().build();
         private Nesting1 field252 = Nesting1.newBuilder().build();
         private Nesting1 field253 = Nesting1.newBuilder().build();
@@ -4418,7 +4411,6 @@ public class WideNestedBean {
         private Nesting1 field398 = Nesting1.newBuilder().build();
         private Nesting1 field399 = Nesting1.newBuilder().build();
         private Nesting1 field400 = Nesting1.newBuilder().build();
-        */
 
         private Builder() {
         }
@@ -5673,7 +5665,6 @@ public class WideNestedBean {
             return this;
         }
 
-        /*
         public Builder field251(Nesting1 field251) {
             this.field251 = field251;
             return this;
@@ -6423,7 +6414,6 @@ public class WideNestedBean {
             this.field400 = field400;
             return this;
         }
-        */
 
         public WideNestedBean build() {
             return new WideNestedBean(this);
